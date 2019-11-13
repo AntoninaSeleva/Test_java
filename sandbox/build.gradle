@@ -1,0 +1,13 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+application {
+    mainClassName = 'JavaFirst'
+}
+
+test {
+    // Use junit platform for unit tests
+    useJUnitPlatform()
+}
