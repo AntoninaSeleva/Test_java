@@ -5,22 +5,16 @@ public class JavaFirst {
     public static void main(String[] args) {
         hello("world");
         hello("user");
-        double len =5;
-        System.out.println("Area = " + area(len));
-        double a=4;
-        double b= 5;
-        System.out.println("Area2 = " + area(a,b));
+
+        Square s =  new Square(5);
+        System.out.println("Area = " + s.area());
+
+        Rectangle r = new Rectangle(4,6);
+        System.out.println("Area2 = " + r.area());
     }
 
     public static void hello(String somebody) {
         System.out.println("hello, " + somebody);
     }
 
-    public static double area(double l){
-        return l *l;
-    }
-
-    public  static double area (double a, double b){
-        return a*b;
-    }
 }
