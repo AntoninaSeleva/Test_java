@@ -1,3 +1,5 @@
+package hello;
+
 public class JavaFirst{
 
 public static void main(String[] args) {
