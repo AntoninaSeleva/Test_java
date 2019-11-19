@@ -87,7 +87,7 @@
             <option value=":test" />
           </list>
         </option>
-        <option name="vmOptions" value="-Dwebdriver.chrome.driver=&quot;C:\\Users\\aseleva\\Documents\\GitHub\\Test_java\\addressbook_web\\src\\test\\java\\qa\\addressbook\\chromedriver.exe&quot;" />
+        <option name="vmOptions" value="" />
       </ExternalSystemSettings>
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
