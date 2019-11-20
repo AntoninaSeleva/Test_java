@@ -3,19 +3,17 @@ package qa.addressbook.appmanager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class SessionHelper {
-    private WebDriver driver;
+public class SessionHelper extends HelperBase{
 
     public SessionHelper(WebDriver driver) {
-        this.driver = driver;
+        super(driver);
     }
 
     public void login(String username, String password) {
         driver.get("http://localhost/addressbook/");
-        driver.findElement(By.name("user")).click();
-        driver.findElement(By.name("user")).sendKeys(username);
-        driver.findElement(By.name("pass")).click();
-        driver.findElement(By.name("pass")).sendKeys(password);
-        driver.findElement(By.cssSelector("input:nth-child(7)")).click();
+        type("username", By.name("user"));
+        type("password", By.name("pass"));
+        click(By.name("input:nth-child(7)"));
     }
+
 }
