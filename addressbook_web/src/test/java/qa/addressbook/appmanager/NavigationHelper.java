@@ -10,6 +10,7 @@ public class NavigationHelper extends HelperBase{
     }
 
     public void goToGroup() {
-        click(By.linkText("groups"));
+        driver.get("http://localhost/addressbook/group.php");
+        //click(By.linkText("groups"));
     }
 }

@@ -65,13 +65,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.DeleteGroup">
+  <component name="RunManager" selected="Gradle.GroupModificationTests">
     <configuration name="DeleteGroup" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;qa.addressbook.DeleteGroup&quot;" />
+        <option name="scriptParameters" value="--tests &quot;qa.addressbook.tests.DeleteGroup&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -86,12 +86,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SquareTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="GroupModificationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;qa.addressbook.SquareTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;qa.addressbook.tests.GroupModificationTests&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -111,7 +111,7 @@
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;qa.addressbook.TestAddressTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;qa.addressbook.tests.TestAddressTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -121,7 +121,7 @@
             <option value=":test" />
           </list>
         </option>
-        <option name="vmOptions" value="" />
+        <option name="vmOptions" />
       </ExternalSystemSettings>
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
@@ -167,18 +167,18 @@
     </configuration>
     <list>
       <item itemvalue="Gradle.addressbook_web [test]" />
-      <item itemvalue="Gradle.SquareTest" />
       <item itemvalue="Gradle.TestAddressTest" />
       <item itemvalue="Gradle.TestAddressTest.testAddress" />
       <item itemvalue="Gradle.DeleteGroup" />
+      <item itemvalue="Gradle.GroupModificationTests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.GroupModificationTests" />
         <item itemvalue="Gradle.DeleteGroup" />
         <item itemvalue="Gradle.TestAddressTest" />
-        <item itemvalue="Gradle.addressbook_web [test]" />
-        <item itemvalue="Gradle.TestAddressTest.testAddress" />
-        <item itemvalue="Gradle.SquareTest" />
+        <item itemvalue="Gradle.DeleteGroup" />
+        <item itemvalue="Gradle.TestAddressTest" />
       </list>
     </recent_temporary>
   </component>

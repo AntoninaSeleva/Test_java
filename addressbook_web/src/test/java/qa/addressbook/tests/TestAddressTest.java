@@ -3,7 +3,7 @@ package qa.addressbook.tests;
 import org.junit.Test;
 import qa.addressbook.model.GroupData;
 
-public class TestAddressTest extends TestBase{
+public class TestAddressTest extends TestBase {
 
     @Test
     public void testAddress() {

@@ -11,9 +11,9 @@ public class SessionHelper extends HelperBase{
 
     public void login(String username, String password) {
         driver.get("http://localhost/addressbook/");
-        type("username", By.name("user"));
-        type("password", By.name("pass"));
-        click(By.name("input:nth-child(7)"));
+        type(username, By.name("user"));
+        type(password, By.name("pass"));
+        click(By.cssSelector("input:nth-child(7)"));
     }
 
 }
