@@ -28,6 +28,13 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -39,6 +46,12 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="qa.addressbook.appmanager" />
+      <recent name="qa.addressbook" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -52,7 +65,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.TestAddressTest">
+  <component name="RunManager" selected="Gradle.DeleteGroup">
+    <configuration name="DeleteGroup" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;qa.addressbook.DeleteGroup&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="SquareTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -137,9 +170,11 @@
       <item itemvalue="Gradle.SquareTest" />
       <item itemvalue="Gradle.TestAddressTest" />
       <item itemvalue="Gradle.TestAddressTest.testAddress" />
+      <item itemvalue="Gradle.DeleteGroup" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.DeleteGroup" />
         <item itemvalue="Gradle.TestAddressTest" />
         <item itemvalue="Gradle.addressbook_web [test]" />
         <item itemvalue="Gradle.TestAddressTest.testAddress" />
