@@ -64,7 +64,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.TestPoint">
+  <component name="RunManager" selected="Gradle.EquationTests">
     <configuration name="JavaFirst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hello.JavaFirst" />
       <module name="hello.main" />
@@ -77,6 +77,26 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="EquationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;EquationTests&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="SquareTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -120,6 +140,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.EquationTests" />
         <item itemvalue="Gradle.TestPoint" />
         <item itemvalue="Gradle.SquareTest" />
         <item itemvalue="Application.JavaFirst" />

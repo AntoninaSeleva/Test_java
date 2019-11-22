@@ -9,7 +9,10 @@ dependencies {
     implementation 'org.testng:testng:6.9.10'
     implementation 'org.seleniumhq.selenium:selenium-api:4.0.0-alpha-3'
     implementation 'org.seleniumhq.selenium:selenium-chrome-driver:4.0.0-alpha-3'
-    implementation 'org.seleniumhq.selenium:selenium-java:2.48.2'
+    implementation 'org.seleniumhq.selenium:selenium-firefox-driver:4.0.0-alpha-3'
+    implementation 'org.seleniumhq.selenium:selenium-ie-driver:4.0.0-alpha-3'
+    implementation 'org.seleniumhq.selenium:selenium-java:2.50.0'
+    implementation 'org.seleniumhq.selenium:selenium-remote-driver:2.44.0';
     implementation 'junit:junit:4.13-rc-1'
     //implementation 'org.junit.jupiter:junit-jupiter:5.5.2'
     //implementation 'org.testifyproject.junit4:junit4:1.0.6'
